@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // constructor function
+        function Person(firstName, lastName) {
+            // properti function
+            this.firstName = firstName;
+            this.lastName = lastName;
+
+            // method function
+            this.sayHello = function (name) {
+                console.info(`Hello ${name}, my name is ${this.firstName}`);
+            }
+            
+        }
+
+        const data = new Person("Januar", "Fikri");
+        data.sayHello("Gunawan");
+
+        console.log(data);
+
+
+        // Class javascript
+        class Contoh {
+            constructor(name) {
+                console.info(`Membuat Person ${name}`)
+            }
+        }
+
+        const item = new Contoh("Dani");
+        const item2 = new Contoh("Dodo");
+        console.log(item);
+        console.log(item2);
+    </script>
+</body>
+</html>
