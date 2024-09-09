@@ -1,1 +1,17 @@
-[{"nama":"Sugmana S","email":"sugmana@gmail.com","nohp":"081111334567"},{"nama":"Liana","email":"liana@gmail.com","nohp":"08332090293"},{"nama":"indra","email":"indraSukmana@sch.id","nohp":"0811111444555"}]
+[
+    {
+        "nama": "Sugmana S",
+        "email": "sugmana@gmail.com",
+        "nohp": "081111334567"
+    },
+    {
+        "nama": "Liana",
+        "email": "liana@gmail.com",
+        "nohp": "08332090293"
+    },
+    {
+        "nama": "indra",
+        "email": "indraSukmana@sch.id",
+        "nohp": "0811111444555"
+    }
+]
